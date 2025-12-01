@@ -11,7 +11,7 @@ const Hero = () => {
   const [hasClicked, setHasClicked] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const demoEndpoint = "http://localhost:3000/api/demo";
+  const demoEndpoint = "https://landing-do7i.onrender.com/api/demo";
 
   useEffect(() => {
     const fetchDemoCount = async () => {
